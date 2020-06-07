@@ -1,0 +1,172 @@
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+.header {
+  /*height: 72px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  padding: 15px 0;*/
+  color: white;
+  background:#00c2c2;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5rem;
+	font-weight: normal;
+	padding-bottom: 10px;
+	align-content: center;
+
+
+}
+
+
+.footer {
+  /*height: 72px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  padding: 15px 0;*/
+  color: white;
+  background:#00c2c2;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+	padding-bottom: 10px;
+  padding-top: 10px;
+	align-content: center;
+		position: relative;
+
+
+}
+
+.card
+{
+  color: #444444;
+  background: #B7F7EE;
+  margin-top: 25px
+
+}
+
+.card-header
+{
+color: #008080;
+font-weight: bold;
+
+}
+
+.colored-section {
+/*  background-color: #ff4c68;*/
+background-color:red;
+  color: #fff;
+}
+
+body {
+	/*font-family: "Open Sans", sans-serif;*/
+	text-align: center;
+font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
+
+}
+
+a 	{
+		color: #009cea;
+	}
+
+a:hover {
+		color: #1eb4ff;
+		text-decoration: none;
+		}
+/*
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}*/
+
+p {
+  margin: 10px 10px 10px 10px;
+}
+
+
+.pannel1 {
+	color: #444444;
+	background: #00c2c2;
+	padding: 10px;
+	position: relative;
+}
+
+.pannel2 {
+	color: #444444;
+	background: #B7F7EE;
+		padding: 10px;
+
+}
+
+
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.pannel1H1
+{
+color: white;
+}
+
+.pannel2H1
+{
+color: #008080;
+}
+
+.postion{
+  margin-top: 25px;
+  text-align: left;
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+/*
+#header.header-scrolled {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+*/
+
+
+/*Add By me to Inlarge the image and Circle*/
+@media (min-width: 1024px) {
+#MyHeaderImg
+{
+  width: 15%;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+}
+.social-icon {
+  margin: 20px 10px;
+  color: White;
+}
