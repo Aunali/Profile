@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="International healthcare technology implementations delivered by Aun Ali across the United States, Pakistan, Afghanistan, and Kenya.">
+  <title>Global Healthcare Implementations | Aun Ali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <style>
+    .global-hero{padding:110px 0 80px;color:#fff;background:radial-gradient(circle at 75% 20%,rgba(22,119,255,.35),transparent 28%),linear-gradient(135deg,#06172e,#0b4d86)}
+    .global-hero h1{max-width:850px;margin:0;font-size:clamp(2.7rem,6vw,5rem);line-height:1.05;letter-spacing:-.045em}
+    .global-hero p{max-width:760px;color:#d8e8fa;font-size:1.1rem}
+    .footprint{padding:90px 0;background:#f4f8fc}
+    .world-panel{position:relative;min-height:430px;margin-top:42px;overflow:hidden;border-radius:28px;background:linear-gradient(135deg,#071d3a,#0d4f88);box-shadow:0 24px 60px rgba(7,29,58,.18)}
+    .world-panel:before{content:"";position:absolute;inset:0;opacity:.18;background-image:radial-gradient(circle at 12% 35%,#fff 0 2px,transparent 3px),radial-gradient(circle at 35% 50%,#fff 0 2px,transparent 3px),radial-gradient(circle at 59% 43%,#fff 0 2px,transparent 3px),radial-gradient(circle at 76% 58%,#fff 0 2px,transparent 3px);background-size:48px 48px}
+    .route{position:absolute;height:2px;transform-origin:left center;background:linear-gradient(90deg,#5bb5ff,#f59e0b);box-shadow:0 0 12px rgba(91,181,255,.8)}
+    .r1{width:39%;left:19%;top:42%;transform:rotate(-8deg)} .r2{width:45%;left:20%;top:48%;transform:rotate(3deg)} .r3{width:50%;left:21%;top:54%;transform:rotate(10deg)}
+    .pin{position:absolute;width:18px;height:18px;border:4px solid #fff;border-radius:50%;background:#f59e0b;box-shadow:0 0 0 8px rgba(245,158,11,.18)}
+    .pin span{position:absolute;top:24px;left:50%;transform:translateX(-50%);white-space:nowrap;color:#fff;font-size:.8rem;font-weight:800}
+    .us{left:18%;top:38%}.pakistan{left:66%;top:47%}.afghanistan{left:62%;top:39%}.kenya{left:59%;top:69%}
+    .country-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:32px}
+    .country-card{padding:26px;border:1px solid #dbe5f0;border-radius:18px;background:#fff}
+    .country-card strong{display:block;color:#071d3a;font-size:1.15rem}.country-card span{color:#607089;font-size:.9rem}.country-card p{color:#607089}
+    .back-link{display:inline-flex;margin-top:28px;color:#fff;font-weight:800}
+    @media(max-width:850px){.country-grid{grid-template-columns:repeat(2,1fr)}.world-panel{min-height:360px}.pin span{font-size:.7rem}}
+    @media(max-width:520px){.country-grid{grid-template-columns:1fr}.world-panel{min-height:310px}.pin span{display:none}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">AUN ALI</a>
+      <nav class="main-nav" aria-label="Main navigation"><a href="index.html#projects">Projects</a><a href="index.html#experience">Experience</a><a href="index.html#contact">Contact</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="global-hero">
+      <div class="container">
+        <p class="eyebrow">Global healthcare implementation experience</p>
+        <h1>Delivering healthcare technology across four countries.</h1>
+        <p>My work has included hospital information systems, clinical application modernization, public health platforms, supply-chain integration, infrastructure preparation, user training, and production go-live support in the United States, Pakistan, Afghanistan, and Kenya.</p>
+        <a class="back-link" href="index.html">← Return to homepage</a>
+      </div>
+    </section>
+    <section class="footprint">
+      <div class="container">
+        <p class="section-label">International footprint</p>
+        <h2>From hospital applications to enterprise integration.</h2>
+        <div class="world-panel" aria-label="Visual representation of implementation locations">
+          <div class="route r1"></div><div class="route r2"></div><div class="route r3"></div>
+          <div class="pin us"><span>United States</span></div>
+          <div class="pin pakistan"><span>Pakistan</span></div>
+          <div class="pin afghanistan"><span>Afghanistan</span></div>
+          <div class="pin kenya"><span>Kenya</span></div>
+        </div>
+        <div class="country-grid">
+          <article class="country-card"><strong>United States</strong><span>Houston • Shreveport • VA hospitals</span><p>Public health surveillance, HL7 and FHIR integration, EDI warehouse solutions, healthcare claims, data modernization, and VA supply-chain implementations.</p></article>
+          <article class="country-card"><strong>Pakistan</strong><span>Karachi • Hyderabad • Multiple hospitals</span><p>Hospital information systems, MEDITECH-related module modernization, ADT, RIS, CSSD/CICS, oncology, immunization, ER, scheduling, and clinical workflows.</p></article>
+          <article class="country-card"><strong>Afghanistan</strong><span>FMIC Kabul</span><p>HIS implementation covering hardware planning, application installation, configuration, ADT, OPMS, user training, go-live preparation, and operational support.</p></article>
+          <article class="country-card"><strong>Kenya</strong><span>Aga Khan University Hospital Nairobi</span><p>Implementation and rollout of hospital information systems, workflow adaptation, application configuration, user readiness, training, and production support.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container footer-wrap"><span>© <span id="year"></span> Aun Ali</span><span>Global Healthcare Technology Experience</span></div></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
